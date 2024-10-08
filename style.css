@@ -9,10 +9,12 @@
       height: 400px;
      }
 
-     .container .section-text {
-      width: 50%;
-      padding-left: 100px;
-      color: #000000;
+     .container .section-text .bnt {
+      text-align: center;
+      height: 40px;
+      width: 120px;
+      background: #6831C2;
+      color: #FFFFFF; 
       font-family: arial, sans-serif;
       font-size: 20px;
      }
