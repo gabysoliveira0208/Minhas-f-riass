@@ -1,7 +1,6 @@
 .titles {
   color: #5895ea;
-    
-    }
+     }
 
     .container {
       display: flex;
@@ -20,7 +19,7 @@
      .container .section-image {
       width: 50%;
       padding: 15px;
-      text-align: center;
+      height: 400px;
     }
     
     .container .section-image .image {
