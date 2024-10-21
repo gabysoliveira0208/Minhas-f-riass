@@ -27,3 +27,9 @@
       padding: 20px;
       height: 100px;
     }
+
+    p {color: pink;}
+    p {font-family: arial, sans-serif; }
+    p {font-style: italic;}
+    span {font-weight: bold;}
+
