@@ -28,4 +28,11 @@
       height: 100px;
     }
 
+    .paragrafo-estilizado {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #20a0b9; 
+    }
+
     
