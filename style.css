@@ -39,15 +39,15 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  width: 80vw;
-  padding: 3vw;
+  width: 70vw;
+  padding: 8vw;
   border: white 0.3vw solid;
   border-radius: 2vw;
   margin: 0 6vw;
 }
 
 main section {
-  padding: 3vw;
+  padding: 2.5vw;
   border: white 0.3vw solid;
   border-radius: 2vw;
   margin: 5vh 0;
@@ -58,7 +58,7 @@ main section {
 }
 
 main section h2 {
-  font-size: 6vw;
+  font-size: 5vw;
   letter-spacing: 0.6vw;
   font-weight: 300;
   margin-bottom: 2vh;
@@ -70,3 +70,20 @@ main section img {
   border-left: white 0.5vw solid;
   margin-bottom: 3vh;
 }
+
+footer {
+  width: 100%;
+  padding: 10vh 0;
+  border-top: white 0.5vh solid;
+  margin-top: 15vh;
+  background-color: #111316;
+  text-align: center;
+  color: white;
+  font-size: 2vw;
+  letter-spacing: 0.2vw;
+  font-weight: 100;
+}
+
+
+
+ 
