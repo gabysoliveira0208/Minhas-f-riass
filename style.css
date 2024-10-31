@@ -1,44 +1,72 @@
-.titles {
-  color: #618fd1;
-     }
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Hammersmith+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-     body {
-      font-size: 1.5em;
-      line-height: 1.6;
-      color:cadetblue
-     }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
 
-    .container {
-      display: flex;
-      width: 100%;
-      height: 400px;
-     }
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: rgb(26, 27, 27);
+}
 
-     .container .section-text {
-      width: 50%;
-      padding-left: 100px;
-      color: #2159da;
-      font-family: arial, sans-serif;
-      font-size: 150px;
-     }
+
+#titulo-principal {
+  padding: 3vw;
+  border: white 0.3vw solid;
+  border-radius: 2vw;
+  margin-top: 10vh;
+  font-weight: 400;
+}
+
+#titulo-principal h1 {
+  color: #88d0ec;
+  font-size: 6vw;
+  letter-spacing: 1vw;
+  font-weight: 600;
+}
+#titulo-principal p {
+  font-size: 2vw;
+  letter-spacing: 0.1vw;
+  word-spacing: 0.5vw;
+  line-height: 4vh;
+  color: #20a0b9; 
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  padding: 3vw;
+  border: white 0.3vw solid;
+  border-radius: 2vw;
+  margin: 0 6vw;
+}
+
+main section {
+  padding: 3vw;
+  border: white 0.3vw solid;
+  border-radius: 2vw;
+  margin: 5vh 0;
+  color: white;
+  font-size: 1.5vw;
+  letter-spacing: 0.09vw;
+  font-weight: 100;
+}
+
+main section h2 {
+  font-size: 6vw;
+  letter-spacing: 0.6vw;
+  font-weight: 300;
+  margin-bottom: 2vh;
+}
     
-     .container .section-image {
-      width: 25%;
-      padding: 20px;
-      height: 100px;
-    }
-    
-    .container .section-image {
-      width: 25%;
-      padding: 20px;
-      height: 100px;
-    }
-
-    .paragrafo-estilizado {
-      font-size: 18px;
-      line-height: 1.6;
-      margin-bottom: 20px;
-      color: #20a0b9; 
-    }
-
-    
+main section img {
+  width: 100%;
+  border-radius: 2vw;
+  border-left: white 0.5vw solid;
+  margin-bottom: 3vh;
+}
